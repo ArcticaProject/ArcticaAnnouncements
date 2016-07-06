@@ -70,7 +70,7 @@ TheQVD (VDI product worked on at Qindel) in mind.
 ### People involved
 
 There are various people involved in nx-libs 3.6.x maintenance and
-development, some of them shall be explicitly name here (in alphabetical
+development, some of them shall be explicitly named here (in alphabetical
 order of surnames):
 
   - Mario Becroft (long term NX contributor)
@@ -112,7 +112,7 @@ We are very close to our self-defined release goal 3.6.0. The below tasks have a
   - allow Unix file sockets as channel endpoints (complete)
   - new RandR based Xinerama extension (+/- complete, more QA needed)
   - nxcomp protocol clean-up (complete)
-  - RandR Xserver extension upgrade to proto version 1.5 (complete, from version 1.2)
+  - RandR Xserver extension upgrade to protocol version 1.5 (complete, from version 1.2)
   - Composite Xserver extension upgrade to proto version 0.4 (complete, from version 0.2)
   - various ABI/API updates (with respect to X.org), so that extension backporting should
     be easy now (+/- complete)
@@ -162,7 +162,7 @@ Another 50.000 lines of code have been removed over the past two months.
 ## Work pending for the final 3.6.0 release goal
 
   - allow embedding of nxproxy into other windows (work pending)
-  - Fix Xcomposite extension in Xserver (work pending)
+  - Fix the Composite extension in nx-X11 Xserver (work pending)
   - nxcomp logging clean-up (work pending)
   - optimizing documentation: how to tune NX connections (work pending)
   - XServer extension upgrades:

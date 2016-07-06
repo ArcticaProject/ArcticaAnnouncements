@@ -61,7 +61,7 @@ subprojects and lasts until August 2017:
 
   - Work on nx-libs (coordinated by DAS-NETZWERKTEAM, Mike Gabriel)
   - Work on multimedia support in remote graphical sessions (coordinated by
-    Mao Chen Lee, Guangzhou Nianguan Electronics Technology Co.,Ltd)
+    Guangzhou Nianguan Electronics Technology Co.,Ltd)
 
 The current nx-libs development effort is coordinated in the context of the
 Arctica Project (by Mike Gabriel), with use cases in Arctica, X2Go and
@@ -78,7 +78,7 @@ order of surnames):
   - Mike DePaulo (CVE hunter)
   - Salvador Fandiño (developer, code reviewer, provided by Qindel)
   - Mike Gabriel (development coordination, developer, packager)
-  - Mao Chen Lee (Arctica Project developer, advisor)
+  - The GZNGET FLOSS Team (Arctica Project developer, advisory)
   - Jordi Marqués (Arctica Project infrastructure maintainer)
   - Mihai Moldovan (developer, code reviewer)
   - Ulrich Sibiller (developer, code reviewer)

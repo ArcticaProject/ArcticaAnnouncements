@@ -35,7 +35,7 @@ This effort is now about to be released as "nx-libs 3.6.0.0".
 
 ## Contributors
 
-Since 2011, the nx-libs code base has to a great extend been maintained
+Since 2011, the nx-libs code base has to a great extent been maintained
 in the context of the [X2Go Project](http://wiki.x2go.org) [1].
 
 ### Qindel Group joining in...
@@ -57,7 +57,7 @@ the Qindel group greatly supports the development of nx-libs 3.6.x
 monetarily and with provided man power. The funding project officially is
 a cooperation between Qindel and DAS-NETZWERKTEAM (business run by Mike
 Gabriel, long term maintainer of nx-libs). The funding is split into two
-subproject and last until August 2017:
+subprojects and lasts until August 2017:
 
   - Work on nx-libs (coordinated by DAS-NETZWERKTEAM, Mike Gabriel)
   - Work on multimedia support in remote graphical sessions (coordinated by
@@ -69,8 +69,9 @@ TheQVD (VDI product worked on at Qindel) in mind.
 
 ### People involved
 
-There are various people involved in nx-libs 3.6.x maintenance, some of
-them shall be explicitly name here (in alphabetical order of surnames):
+There are various people involved in nx-libs 3.6.x maintenance and
+development, some of them shall be explicitly name here (in alphabetical
+order of surnames):
 
   - Mario Becroft (long term NX contributor)
   - Nicolas Arenas Alonso (funding project coordinator at Qindel)
@@ -88,6 +89,8 @@ Thanks for your work on nx-libs:
 
   - Fernando Carvajal (contributor, provided by Qindel)
   - Reinhard Tartler (contributor to X2Go)
+
+A big thanks to everyone involved!!!
 
 Special thanks go to Stefan Baur for employing Mihai Moldovan and handling
 all the bureaucracy, so that Mihai can work on this project and get
@@ -111,10 +114,13 @@ We are very close to our self-defined release goal 3.6.0. The below tasks have a
   - nxcomp protocol clean-up (complete)
   - RandR Xserver extension upgrade to proto version 1.5 (complete, from version 1.2)
   - Composite Xserver extension upgrade to proto version 0.4 (complete, from version 0.2)
+  - various ABI/API updates (with respect to X.org), so that extension backporting should
+    be easy now (+/- complete)
 
-In a [previous blog post](https://sunweavers.net/blog/node/39) [4], the code
-reduction in nx-libs. With this announcement, we want to give a status
-update about our effort on shrinking nx-libs:
+In a [previous blog post](https://sunweavers.net/blog/node/39) [4], the
+code reduction in nx-libs has already been discussed. With this
+announcement, we want to give a status update about our effort of
+shrinking the nx-libs code base:
 
 ```
 [mike@minobo nx-libs (3.6.x)]$ cloc --match-f '.*\.(c|cpp|h)' .
@@ -151,6 +157,8 @@ SUM:                          1922         118581         126783         662635
 -------------------------------------------------------------------------------
 ```
 
+Another 50.000 lines of code have been removed over the past two months.
+
 ## Work pending for the final 3.6.0 release goal
 
   - allow embedding of nxproxy into other windows (work pending)
@@ -165,22 +173,30 @@ SUM:                          1922         118581         126783         662635
     - Sync 1.0 -> 3.0 (work pending)
     - Render 0.10 -> 0.11 (work pending)
   - Drop as many X11 related proto headers as possible
-  - Bug hunting, see: https://github.com/ArcticaProject/nx-libs/issues
+
+## Known Issues
+
+There are several open issues on the nx-libs Github project space, see
+https://github.com/ArcticaProject/nx-libs/issues.
 
 ## Testing the nx-libs 3.5.99.0
 
 We are currently working on provisioning release builds and nightly
-builds for various recent Linux distributions. Please stay tuned and
-watch [Mike Gabriel's blog](https://sunweavers.net) [5].
+builds of nx-libs for various recent Linux distributions. Please stay
+tuned and watch [Mike Gabriel's blog](https://sunweavers.net) [5]. We
+already have [nightly builds of nx-libs for Debian and
+Ubuntu](https://sunweavers.net/blog/node/20) [6], but there are more to
+come soon.
 
 Until now, please use the build recipes provided in the [README.md file
 of the nx-libs source
 tree](https://github.com/ArcticaProject/nx-libs/blob/3.6.x/README.md)
-[6].
+[7].
 
 [1] http://wiki.x2go.org
 [2] http://www.qindel.com
 [3] https://arctica-project.org
 [4] https://sunweavers.net/blog/node/39
 [5] https://sunweavers.net
-[6] https://github.com/ArcticaProject/nx-libs/blob/3.6.x/README.md
+[6] https://sunweavers.net/blog/node/20
+[7] https://github.com/ArcticaProject/nx-libs/blob/3.6.x/README.md

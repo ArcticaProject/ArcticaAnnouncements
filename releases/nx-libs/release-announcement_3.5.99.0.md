@@ -1,4 +1,4 @@
-# DRAFT::: Arctica Announcement (No. XX): Release of nx-libs (version 3.5.99.0)
+# Arctica Announcement (No. 00001): Release of nx-libs (version 3.5.99.0)
 
 ## Introduction
 

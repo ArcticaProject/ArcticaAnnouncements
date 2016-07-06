@@ -82,7 +82,7 @@ order of surnames):
   - Jordi Marqués (Arctica Project infrastructure maintainer)
   - Mihai Moldovan (developer, code reviewer)
   - Ulrich Sibiller (developer, code reviewer)
-  - Vadim Troshchinskiy (developer, code reviewer)
+  - Vadim Troshchinskiy (developer, code reviewer, provided by Qindel)
 
 Some other people have contributed, but have left the project already.
 Thanks for your work on nx-libs:

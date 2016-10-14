@@ -1,7 +1,5 @@
 # Arctica Announcement (No. 00003): Release of nx-libs (version 3.5.99.2)
 
-D R A F T
-
 ### Introduction
 
 NX is a software suite which implements very efficient compression of the
@@ -29,6 +27,10 @@ So for this releas, a very special and massive thanks goes to Ulrich Sibiller!!!
 ### Change Log
 
 A list of recent changes (since 3.5.99.1) can be obtained from [here](https://github.com/ArcticaProject/nx-libs/commit/29e29342ee73fcd52d3b67bebb4fc7e84df898fd).
+
+### Known Issues
+
+This version of nx-libs is known to segfault when LDFLAGS / CFLAGS have the -pie / -fPIE hardening flags set. This issue is currently under investigation.
 
 ### Binary Builds
 

@@ -1,1 +1,1 @@
-/home/mike/MyDocuments/4projects/arctica-upstream/ArcticaAnnouncements/releases/nx-libs/release-announcement_3.5.99.1.md
+../releases/nx-libs/release-announcement_3.5.99.1.md

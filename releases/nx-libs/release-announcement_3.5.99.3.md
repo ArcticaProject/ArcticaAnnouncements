@@ -28,7 +28,7 @@ A very special and massive thanks to all major contributors, namely Ulrich Sibil
 
 ### Change Log
 
-A list of recent changes (since 3.5.99.1) can be obtained from [here](https://github.com/ArcticaProject/nx-libs/commit/29e29342ee73fcd52d3b67bebb4fc7e84df898fd).
+A list of recent changes (since 3.5.99.2) can be obtained from [here](https://github.com/ArcticaProject/nx-libs/commit/9acd13e50c3bde9105f6143922028f0de0d4ae50).
 
 ### Known Issues from 3.5.99.2 (solved in 3.5.99.3)
 

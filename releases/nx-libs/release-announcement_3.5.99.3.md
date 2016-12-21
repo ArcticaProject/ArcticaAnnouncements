@@ -26,7 +26,7 @@ on this.
 
 This release is also the first version of nx-libs (v3) that has dropped
 nxcompext as shared library. We discovered that shipping nxcompext as
-shared library is a big design flaw as it has to be be built against
+shared library is a big design flaw as it has to be built against
 header files private to the Xserver (namely, dix.h). Conclusively, code
 from nxcompext was moved into the nxagent DDX [2].
 

@@ -12,7 +12,7 @@ into this _announcements_/ folder that points to the announcements text.
 Make sure, that the symlink name has the following format:
 
 ```
-  <YYYY-MM-DD>_no<XXXXX>_<title>{.md,.txt}
+  <YYYY-MM-DD>_no<XXXXX>_<code-project>_<title>{.md,.txt}
 ```
 
 All files in the ArcticaAnnouncements Git repository are licensed under

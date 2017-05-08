@@ -43,7 +43,7 @@ stability is a completely different issue, we will get to this soon).
 
 ### Change Log
 
-Lists of changes (since 3.5.99.6) can be obtained from
+The complete list of changes (since 3.5.99.6) can be obtained from
 [here](https://github.com/ArcticaProject/nx-libs/commit/5d5336541a7fb09f0164bebc63dc3113e553d720).
 
 ### Known Issues

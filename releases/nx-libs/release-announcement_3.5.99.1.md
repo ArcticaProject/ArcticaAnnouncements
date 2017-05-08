@@ -39,7 +39,7 @@ A list of recent changes (since 3.5.99.0) can be obtained from
 You can obtain binary builds of nx-libs for Debian (jessie, stretch,
 unstable) and Ubuntu (trusty, xenial) via these apt-URLs:
 
-  * Debian: ``deb http://packages.arctica-project.org/ubuntu {jessie,stretch,sid} main``
+  * Debian: ``deb http://packages.arctica-project.org/debian {jessie,stretch,sid} main``
   * Ubuntu: ``deb http://packages.arctica-project.org/ubuntu {trusty,xenial} main``
 
 Our package server's archive key is: 0x98DE3101 (fingerprint: 7A49 CD37

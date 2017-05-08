@@ -45,7 +45,7 @@ Currently none.
 You can obtain binary builds of remote-logon-service for Debian (stretch,
 unstable) and Ubuntu (trusty, xenial) via these apt-URLs:
 
-  * Debian: ``deb http://packages.arctica-project.org/ubuntu {stretch,sid} main``
+  * Debian: ``deb http://packages.arctica-project.org/debian {stretch,sid} main``
   * Ubuntu: ``deb http://packages.arctica-project.org/ubuntu {trusty,xenial} main``
 
 Our package server's archive key is: 0x98DE3101 (fingerprint: 7A49 CD37
